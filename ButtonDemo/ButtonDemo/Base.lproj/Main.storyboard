@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2p-DK-m8A">
+                                <rect key="frame" x="207" y="148" width="186" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="lKP-ZV-hsz"/>
+                                </constraints>
+                                <state key="normal" title="在左边" image="ico_jiantou_on">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQa-Jd-Lh7">
+                                <rect key="frame" x="403" y="148" width="187" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="hF3-aE-GaM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="在右边" image="ico_jiantou_on">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dka-dr-PME">
+                                <rect key="frame" x="10" y="148" width="187" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="AdB-Wh-5cB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="默认状态" image="ico_jiantou_on">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D2p-DK-m8A" firstAttribute="leading" secondItem="Dka-dr-PME" secondAttribute="trailing" constant="10" id="5m4-Im-HTv"/>
+                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="width" secondItem="D2p-DK-m8A" secondAttribute="width" id="66L-k4-MhF"/>
+                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="width" secondItem="Dka-dr-PME" secondAttribute="width" id="Cd6-op-na2"/>
+                            <constraint firstItem="Dka-dr-PME" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="128" id="MsP-sF-ZyF"/>
+                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="centerY" secondItem="D2p-DK-m8A" secondAttribute="centerY" id="QDw-hn-XaO"/>
+                            <constraint firstItem="Dka-dr-PME" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="XDy-fb-cbj"/>
+                            <constraint firstAttribute="trailing" secondItem="TQa-Jd-Lh7" secondAttribute="trailing" constant="10" id="bh9-GP-rPX"/>
+                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="leading" secondItem="D2p-DK-m8A" secondAttribute="trailing" constant="10" id="cOQ-Wz-7YO"/>
+                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="centerY" secondItem="Dka-dr-PME" secondAttribute="centerY" id="gPQ-lj-blW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn1" destination="Dka-dr-PME" id="PKi-vP-wKe"/>
+                        <outlet property="btn2" destination="D2p-DK-m8A" id="83i-eD-Uhs"/>
+                        <outlet property="btn3" destination="TQa-Jd-Lh7" id="HsI-Nb-h6Q"/>
+                        <outletCollection property="arrButton" destination="Dka-dr-PME" id="aMr-Tf-3TY"/>
+                        <outletCollection property="arrButton" destination="D2p-DK-m8A" id="sO2-XT-4FQ"/>
+                        <outletCollection property="arrButton" destination="TQa-Jd-Lh7" id="GFf-QX-gVh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ico_jiantou_on" width="14" height="8"/>
+    </resources>
+</document>
