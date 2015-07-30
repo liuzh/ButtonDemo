@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFBC41EF1B5FB03000990436"
+               BlueprintIdentifier = "04D3FF0B1B6A5C3C00826202"
                BuildableName = "ButtonDemo.app"
                BlueprintName = "ButtonDemo"
                ReferencedContainer = "container:ButtonDemo.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFBC42081B5FB03100990436"
+               BlueprintIdentifier = "04D3FF241B6A5C3C00826202"
                BuildableName = "ButtonDemoTests.xctest"
                BlueprintName = "ButtonDemoTests"
                ReferencedContainer = "container:ButtonDemo.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFBC42081B5FB03100990436"
+               BlueprintIdentifier = "04D3FF241B6A5C3C00826202"
                BuildableName = "ButtonDemoTests.xctest"
                BlueprintName = "ButtonDemoTests"
                ReferencedContainer = "container:ButtonDemo.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CFBC41EF1B5FB03000990436"
+            BlueprintIdentifier = "04D3FF0B1B6A5C3C00826202"
             BuildableName = "ButtonDemo.app"
             BlueprintName = "ButtonDemo"
             ReferencedContainer = "container:ButtonDemo.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CFBC41EF1B5FB03000990436"
+            BlueprintIdentifier = "04D3FF0B1B6A5C3C00826202"
             BuildableName = "ButtonDemo.app"
             BlueprintName = "ButtonDemo"
             ReferencedContainer = "container:ButtonDemo.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CFBC41EF1B5FB03000990436"
+            BlueprintIdentifier = "04D3FF0B1B6A5C3C00826202"
             BuildableName = "ButtonDemo.app"
             BlueprintName = "ButtonDemo"
             ReferencedContainer = "container:ButtonDemo.xcodeproj">

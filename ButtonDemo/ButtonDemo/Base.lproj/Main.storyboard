@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,56 +16,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2p-DK-m8A">
-                                <rect key="frame" x="207" y="148" width="186" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="lKP-ZV-hsz"/>
-                                </constraints>
-                                <state key="normal" title="在左边" image="ico_jiantou_on">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQa-Jd-Lh7">
-                                <rect key="frame" x="403" y="148" width="187" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="hF3-aE-GaM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="在右边" image="ico_jiantou_on">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dka-dr-PME">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGc-Vv-9Dg">
                                 <rect key="frame" x="10" y="148" width="187" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="AdB-Wh-5cB"/>
+                                    <constraint firstAttribute="height" constant="35" id="G7m-jO-8Xg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="默认状态" image="ico_jiantou_on">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWf-06-hjc">
+                                <rect key="frame" x="207" y="148" width="186" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="XAj-Lz-cpq"/>
+                                </constraints>
+                                <state key="normal" title="在左边" image="ico_jiantou_on">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXk-vb-j5R">
+                                <rect key="frame" x="403" y="148" width="187" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Bjx-90-ZWn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="在右边" image="ico_jiantou_on">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="D2p-DK-m8A" firstAttribute="leading" secondItem="Dka-dr-PME" secondAttribute="trailing" constant="10" id="5m4-Im-HTv"/>
-                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="width" secondItem="D2p-DK-m8A" secondAttribute="width" id="66L-k4-MhF"/>
-                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="width" secondItem="Dka-dr-PME" secondAttribute="width" id="Cd6-op-na2"/>
-                            <constraint firstItem="Dka-dr-PME" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="128" id="MsP-sF-ZyF"/>
-                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="centerY" secondItem="D2p-DK-m8A" secondAttribute="centerY" id="QDw-hn-XaO"/>
-                            <constraint firstItem="Dka-dr-PME" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="XDy-fb-cbj"/>
-                            <constraint firstAttribute="trailing" secondItem="TQa-Jd-Lh7" secondAttribute="trailing" constant="10" id="bh9-GP-rPX"/>
-                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="leading" secondItem="D2p-DK-m8A" secondAttribute="trailing" constant="10" id="cOQ-Wz-7YO"/>
-                            <constraint firstItem="TQa-Jd-Lh7" firstAttribute="centerY" secondItem="Dka-dr-PME" secondAttribute="centerY" id="gPQ-lj-blW"/>
+                            <constraint firstItem="qXk-vb-j5R" firstAttribute="width" secondItem="lWf-06-hjc" secondAttribute="width" id="2LB-L1-N5R"/>
+                            <constraint firstItem="qXk-vb-j5R" firstAttribute="leading" secondItem="lWf-06-hjc" secondAttribute="trailing" constant="10" id="4B1-td-TT8"/>
+                            <constraint firstItem="qXk-vb-j5R" firstAttribute="width" secondItem="jGc-Vv-9Dg" secondAttribute="width" id="FhP-Kj-cz7"/>
+                            <constraint firstItem="jGc-Vv-9Dg" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="128" id="J8Y-m1-Inh"/>
+                            <constraint firstItem="qXk-vb-j5R" firstAttribute="centerY" secondItem="jGc-Vv-9Dg" secondAttribute="centerY" id="SyW-Gi-r4t"/>
+                            <constraint firstItem="lWf-06-hjc" firstAttribute="leading" secondItem="jGc-Vv-9Dg" secondAttribute="trailing" constant="10" id="WyC-tP-c6B"/>
+                            <constraint firstItem="jGc-Vv-9Dg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="jLW-S5-Iv8"/>
+                            <constraint firstItem="qXk-vb-j5R" firstAttribute="centerY" secondItem="lWf-06-hjc" secondAttribute="centerY" id="sUi-5I-fyu"/>
+                            <constraint firstAttribute="trailing" secondItem="qXk-vb-j5R" secondAttribute="trailing" constant="10" id="vKg-lF-rc5"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btn1" destination="Dka-dr-PME" id="PKi-vP-wKe"/>
-                        <outlet property="btn2" destination="D2p-DK-m8A" id="83i-eD-Uhs"/>
-                        <outlet property="btn3" destination="TQa-Jd-Lh7" id="HsI-Nb-h6Q"/>
-                        <outletCollection property="arrButton" destination="Dka-dr-PME" id="aMr-Tf-3TY"/>
-                        <outletCollection property="arrButton" destination="D2p-DK-m8A" id="sO2-XT-4FQ"/>
-                        <outletCollection property="arrButton" destination="TQa-Jd-Lh7" id="GFf-QX-gVh"/>
+                        <outlet property="btn1" destination="jGc-Vv-9Dg" id="m31-zR-KvF"/>
+                        <outlet property="btn2" destination="lWf-06-hjc" id="NQR-u3-C8R"/>
+                        <outlet property="btn3" destination="qXk-vb-j5R" id="e2T-NG-v5G"/>
+                        <outletCollection property="arrButton" destination="jGc-Vv-9Dg" id="Kxd-Pa-Lbu"/>
+                        <outletCollection property="arrButton" destination="lWf-06-hjc" id="1hZ-xr-E3S"/>
+                        <outletCollection property="arrButton" destination="qXk-vb-j5R" id="CuZ-rm-X9t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

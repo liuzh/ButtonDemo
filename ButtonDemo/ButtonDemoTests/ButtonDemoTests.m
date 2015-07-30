@@ -2,8 +2,8 @@
 //  ButtonDemoTests.m
 //  ButtonDemoTests
 //
-//  Created by Polo on 15/7/22.
-//  Copyright (c) 2015年 Polo. All rights reserved.
+//  Created by mac on 15/7/30.
+//  Copyright (c) 2015年 com.liu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

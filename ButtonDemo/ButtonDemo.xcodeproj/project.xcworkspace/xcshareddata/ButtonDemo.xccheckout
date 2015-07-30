@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>103C9696-C72D-428E-9754-7F3D658F6A0B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ButtonDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9E15B1EBCD999E761E1619CB269B603E25A511FA</key>
+		<string>https://github.com/liuzh/ButtonDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ButtonDemo/ButtonDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9E15B1EBCD999E761E1619CB269B603E25A511FA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liuzh/ButtonDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9E15B1EBCD999E761E1619CB269B603E25A511FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E15B1EBCD999E761E1619CB269B603E25A511FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ButtonDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
